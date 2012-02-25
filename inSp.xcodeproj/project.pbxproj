@@ -1,0 +1,82 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		CD3681DE14C3C98900DCD931 /* index.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = index.php; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.php; };
+		CD3681E414C3CB4800DCD931 /* config.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = config.php; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		CD3681D514C3C91800DCD931 = {
+			isa = PBXGroup;
+			children = (
+				CD3681E214C3CB3700DCD931 /* config */,
+				CD3681DE14C3C98900DCD931 /* index.php */,
+			);
+			sourceTree = "<group>";
+		};
+		CD3681E214C3CB3700DCD931 /* config */ = {
+			isa = PBXGroup;
+			children = (
+				CD3681E414C3CB4800DCD931 /* config.php */,
+			);
+			path = config;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		CD3681D714C3C91800DCD931 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = CD3681DA14C3C91800DCD931 /* Build configuration list for PBXProject "inSp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CD3681D514C3C91800DCD931;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		CD3681DC14C3C91900DCD931 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		CD3681DD14C3C91900DCD931 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD3681DA14C3C91800DCD931 /* Build configuration list for PBXProject "inSp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD3681DC14C3C91900DCD931 /* Debug */,
+				CD3681DD14C3C91900DCD931 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD3681D714C3C91800DCD931 /* Project object */;
+}
